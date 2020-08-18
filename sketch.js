@@ -46,6 +46,9 @@ function draw() {
   mango5.display();
   elastic.display();
 
+  textSize(21);
+  text("Drag the stone to the mangoes!",500,100);
+
   detectCollision(stone,mango1);
   detectCollision(stone,mango2);
   detectCollision(stone,mango3);
