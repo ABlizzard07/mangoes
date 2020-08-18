@@ -35,6 +35,10 @@ function draw() {
   rectMode(CENTER);
   background(0);
 
+  textSize(21);
+  fill("white");
+  text("Drag the stone to the mangoes!",500,100);
+
   tree.display();
   ground.display();
   stone.display();
@@ -45,10 +49,6 @@ function draw() {
   mango4.display();
   mango5.display();
   elastic.display();
-
-  textSize(21);
-  fill("white");
-  text("Drag the stone to the mangoes!",500,100);
 
   detectCollision(stone,mango1);
   detectCollision(stone,mango2);
