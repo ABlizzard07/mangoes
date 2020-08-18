@@ -13,7 +13,9 @@ class Mango{
          
       //   this.image = loadImage("sprites/mango.png");
          this.image = loadImage("./mango.png");
+         
          World.add(world,this.body);
+         World.add(world,this.image);
          
      }
  
