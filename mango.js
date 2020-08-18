@@ -12,7 +12,7 @@ class Mango{
          this.diameter = 150;
          
       //   this.image = loadImage("sprites/mango.png");
-         this.image = loadImage("./paper.png");
+         this.image = loadImage("./mango.png");
          World.add(world,this.body);
          
      }
