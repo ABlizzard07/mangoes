@@ -11,7 +11,7 @@ class Mango{
          this.height = 40;
          this.diameter = 150;
          
-      //   this.image = loadImage("sprites/mango.png");
+     //    this.image = loadImage("sprites/mango.png");
          this.image = loadImage("./mango.png");
          
          World.add(world,this.body);

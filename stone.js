@@ -15,16 +15,13 @@ class Stone{
        
     }
     display(){
+        push();
         rectMode(CENTER);
         var pos = this.body.position;
-
-        fill("black");
-        strokeWeight(4);
-        stroke("black");
-        rect(pos.x,pos.y,this.width,this.height);
-       
+        translate(pos.x,pos.y);
 
         imageMode(CENTER);
-        image(this.image, pos.x, pos.y, this.width, this.height);
+        image(this.image, 0, 0, this.width, this.height);
+        pop();
     }
 }
